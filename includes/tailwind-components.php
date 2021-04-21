@@ -768,6 +768,25 @@ function add_qtb_classes($classes) {
   // Placeholder Color: https://tailwindcss.com/docs/placeholder-color
   $tailwind['placeholdercolor'] = qtb_tailwind_color('placeholder');
 
+  // Placeholder Opacity: https://tailwindcss.com/docs/placeholder-opacity
+  $tailwind['placeholderopacity'] = [
+    'placeholder-opacity-0',
+    'placeholder-opacity-5',
+    'placeholder-opacity-10',
+    'placeholder-opacity-20',
+    'placeholder-opacity-25',
+    'placeholder-opacity-30',
+    'placeholder-opacity-40',
+    'placeholder-opacity-50',
+    'placeholder-opacity-60',
+    'placeholder-opacity-70',
+    'placeholder-opacity-75',
+    'placeholder-opacity-80',
+    'placeholder-opacity-90',
+    'placeholder-opacity-95',
+    'placeholder-opacity-100',
+  ];
+
   // Text Decoration: https://tailwindcss.com/docs/text-decoration
   $tailwind['textdecoration'] = [
     'underline',
