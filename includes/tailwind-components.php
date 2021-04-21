@@ -561,8 +561,8 @@ function add_qtb_classes($classes) {
     'max-w-screen-2xl',
   ];
 
-  // Height: https://tailhindcss.com/docs/height
-  $tailhind['height'] = [
+  // Height: https://tailwindcss.com/docs/height
+  $tailwind['height'] = [
     'h-0',
     'h-0.5',
     'h-1',
@@ -625,8 +625,8 @@ function add_qtb_classes($classes) {
     'min-h-screen',
   ];
 
-  // Max-Height: https://tailhindcss.com/docs/max-height
-  $tailhind['maxheight'] = [
+  // Max-Height: https://tailwindcss.com/docs/max-height
+  $tailwind['maxheight'] = [
     'max-h-0',
     'max-h-0.5',
     'max-h-1',
@@ -669,8 +669,8 @@ function add_qtb_classes($classes) {
   /**
    * Typography
    */
-  // Font Weight: https://tailhindcss.com/docs/font-weight
-  $tailhind['fontweight'] = [
+  // Font Weight: https://tailwindcss.com/docs/font-weight
+  $tailwind['fontweight'] = [
     'font-thin',
     'font-extralight',
     'font-light',
@@ -682,8 +682,8 @@ function add_qtb_classes($classes) {
     'font-black',
   ];
 
-  // Font Variant Numeric: https://tailhindcss.com/docs/font-variant-numeric
-  $tailhind['fontvariantnumeric'] = [
+  // Font Variant Numeric: https://tailwindcss.com/docs/font-variant-numeric
+  $tailwind['fontvariantnumeric'] = [
     'normal-nums',
     'ordinal',
     'slashed-zero',
@@ -695,8 +695,8 @@ function add_qtb_classes($classes) {
     'stacked-fractions',
   ];
 
-  // Letter Spacing: https://tailhindcss.com/docs/letter-spacing
-  $tailhind['letterspacing'] = [
+  // Letter Spacing: https://tailwindcss.com/docs/letter-spacing
+  $tailwind['letterspacing'] = [
     'tracking-tighter',
     'tracking-tight',
     'tracking-normal',
@@ -705,43 +705,43 @@ function add_qtb_classes($classes) {
     'tracking-widest',
   ];
 
-  // List Style Type: https://tailhindcss.com/docs/list-style-type
-  $tailhind['liststyletype'] = [
+  // List Style Type: https://tailwindcss.com/docs/list-style-type
+  $tailwind['liststyletype'] = [
     'list-none',
     'list-disc',
     'list-decimal',
   ];
 
-  // List Style Position: https://tailhindcss.com/docs/list-style-position
-  $tailhind['liststyleposition'] = [
+  // List Style Position: https://tailwindcss.com/docs/list-style-position
+  $tailwind['liststyleposition'] = [
     'list-inside',
     'list-outside',
   ];
 
-  // Text Decoration: https://tailhindcss.com/docs/text-decoration
-  $tailhind['textdecoration'] = [
+  // Text Decoration: https://tailwindcss.com/docs/text-decoration
+  $tailwind['textdecoration'] = [
     'underline',
     'line-through',
     'no-underline',
   ];
 
-  // Text Transform: https://tailhindcss.com/docs/text-transform
-  $tailhind['texttransform'] = [
+  // Text Transform: https://tailwindcss.com/docs/text-transform
+  $tailwind['texttransform'] = [
     'uppercase',
     'lowercase',
     'capitalize',
     'normal-case',
   ];
 
-  // Text Overflow: https://tailhindcss.com/docs/text-overflow
-  $tailhind['textoverflow'] = [
+  // Text Overflow: https://tailwindcss.com/docs/text-overflow
+  $tailwind['textoverflow'] = [
     'truncate',
     'overflow-ellipsis',
     'overflow-clip',
   ];
 
-  // Vertical Alignment: https://tailhindcss.com/docs/vertical-align
-  $tailhind['verticalalign'] = [
+  // Vertical Alignment: https://tailwindcss.com/docs/vertical-align
+  $tailwind['verticalalign'] = [
     'align-baseline',
     'align-top',
     'align-middle',
@@ -750,8 +750,8 @@ function add_qtb_classes($classes) {
     'align-text-bottom',
   ];
 
-  // Whitespace: https://tailhindcss.com/docs/whitespace
-  $tailhind['whitespace'] = [
+  // Whitespace: https://tailwindcss.com/docs/whitespace
+  $tailwind['whitespace'] = [
     'whitespace-normal',
     'whitespace-nowrap',
     'whitespace-pre',
@@ -759,8 +759,8 @@ function add_qtb_classes($classes) {
     'whitespace-pre-wrap',
   ];
 
-  // Word Break: https://tailhindcss.com/docs/word-break
-  $tailhind['wordbreak'] = [
+  // Word Break: https://tailwindcss.com/docs/word-break
+  $tailwind['wordbreak'] = [
     'break-normal',
     'break-words',
     'break-all',
@@ -769,23 +769,23 @@ function add_qtb_classes($classes) {
   /**
    * Background
    */
-  // Background Attachment: https://tailhindcss.com/docs/background-attachment
-  $tailhind['backgroundattachment'] = [
+  // Background Attachment: https://tailwindcss.com/docs/background-attachment
+  $tailwind['backgroundattachment'] = [
     'bg-fixed',
     'bg-local',
     'bg-scroll',
   ];
 
-  // Background Clip: https://tailhindcss.com/docs/background-clip
-  $tailhind['backgroundclip'] = [
+  // Background Clip: https://tailwindcss.com/docs/background-clip
+  $tailwind['backgroundclip'] = [
     'bg-clip-border',
     'bg-clip-padding',
     'bg-clip-content',
     'bg-clip-text',
   ];
 
-  // Background Position: https://tailhindcss.com/docs/background-position
-  $tailhind['backgroundposition'] = [
+  // Background Position: https://tailwindcss.com/docs/background-position
+  $tailwind['backgroundposition'] = [
     'bg-bottom',
     'bg-center',
     'bg-left',
@@ -797,8 +797,8 @@ function add_qtb_classes($classes) {
     'bg-top',
   ];
 
-  // Background Repeat: https://tailhindcss.com/docs/background-repeat
-  $tailhind['backgroundrepeat'] = [
+  // Background Repeat: https://tailwindcss.com/docs/background-repeat
+  $tailwind['backgroundrepeat'] = [
     'bg-repeat',
     'bg-no-repeat',
     'bg-repeat-x',
@@ -807,8 +807,8 @@ function add_qtb_classes($classes) {
     'bg-repeat-space',
   ];
 
-  // Background Size: https://tailhindcss.com/docs/background-size
-  $tailhind['backgroundsize'] = [
+  // Background Size: https://tailwindcss.com/docs/background-size
+  $tailwind['backgroundsize'] = [
     'bg-auto',
     'bg-cover',
     'bg-contain',
@@ -817,22 +817,22 @@ function add_qtb_classes($classes) {
   /**
    * Borders
    */
-  // Border Radius: https://tailhindcss.com/docs/border-radius
+  // Border Radius: https://tailwindcss.com/docs/border-radius
   foreach (['', '-t', '-r', '-b', '-l', '-tl', '-tr', '-br', '-bl'] as $position) {
     foreach (['', '-none', '-sm', '-md', '-lg', '-xl', '-2xl', '-3xl', '-full'] as $size) {
       $tailwind['borderradius'][] = 'rounded'.$position.$size;
     }
   }
 
-  // Border Width: https://tailhindcss.com/docs/border-width
+  // Border Width: https://tailwindcss.com/docs/border-width
   foreach (['', '-t', '-r', '-b', '-l'] as $position) {
     foreach (['', '-0', '-2', '-4', '-8'] as $size) {
       $tailwind['borderwidth'][] = 'border'.$position.$size;
     }
   }
 
-  // Border Style: https://tailhindcss.com/docs/border-style
-  $tailhind['borderstyle'] = [
+  // Border Style: https://tailwindcss.com/docs/border-style
+  $tailwind['borderstyle'] = [
     'border-solid',
     'border-dashed',
     'border-dotted',
@@ -840,15 +840,15 @@ function add_qtb_classes($classes) {
     'border-none',
   ];
 
-  // Divide Width: https://tailhindcss.com/docs/divide-width
+  // Divide Width: https://tailwindcss.com/docs/divide-width
   foreach (['x', 'y'] as $position) {
     foreach (['', '-0', '-2', '-4', '-8', '-reverse'] as $size) {
       $tailwind['dividewidth'][] = 'divide-'.$position.$size;
     }
   }
 
-  // Divide Style: https://tailhindcss.com/docs/divide-style
-  $tailhind['dividestyle'] = [
+  // Divide Style: https://tailwindcss.com/docs/divide-style
+  $tailwind['dividestyle'] = [
     'divide-solid',
     'divide-dashed',
     'divide-dotted',
@@ -859,8 +859,8 @@ function add_qtb_classes($classes) {
   /**
    * Effects
    */
-  // Box Shadow: https://tailhindcss.com/docs/box-shadow
-  $tailhind['boxshadow'] = [
+  // Box Shadow: https://tailwindcss.com/docs/box-shadow
+  $tailwind['boxshadow'] = [
     'shadow-sm',
     'shadow',
     'shadow-md',
@@ -871,8 +871,8 @@ function add_qtb_classes($classes) {
     'shadow-none',
   ];
 
-  // Opacity: https://tailhindcss.com/docs/opacity
-  $tailhind['opacity'] = [
+  // Opacity: https://tailwindcss.com/docs/opacity
+  $tailwind['opacity'] = [
     'opacity-0',
     'opacity-5',
     'opacity-10',
@@ -1061,8 +1061,8 @@ function add_qtb_classes($classes) {
     'backdrop-invert',
   ];
 
-  // Backdrop Opacity: https://tailhindcss.com/docs/backdrop-opacity
-  $tailhind['backdropopacity'] = [
+  // Backdrop Opacity: https://tailwindcss.com/docs/backdrop-opacity
+  $tailwind['backdropopacity'] = [
     'backdrop-opacity-0',
     'backdrop-opacity-5',
     'backdrop-opacity-10',
