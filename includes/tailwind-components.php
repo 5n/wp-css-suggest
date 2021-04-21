@@ -766,6 +766,7 @@ function add_qtb_classes($classes) {
   ];
 
   // Placeholder Color: https://tailwindcss.com/docs/placeholder-color
+  $tailwind['placeholdercolor'] = qtb_tailwind_color('placeholder');
 
   // Text Decoration: https://tailwindcss.com/docs/text-decoration
   $tailwind['textdecoration'] = [
