@@ -993,6 +993,25 @@ function add_qtb_classes($classes) {
   // Divide Color: https://tailwindcss.com/docs/divide-color
   $tailwind['dividecolor'] = qtb_tailwind_color('divide');
 
+  // Divide Opacity: https://tailwindcss.com/docs/divide-opacity
+  $tailwind['divideopacity'] = [
+    'divide-opacity-0',
+    'divide-opacity-5',
+    'divide-opacity-10',
+    'divide-opacity-20',
+    'divide-opacity-25',
+    'divide-opacity-30',
+    'divide-opacity-40',
+    'divide-opacity-50',
+    'divide-opacity-60',
+    'divide-opacity-70',
+    'divide-opacity-75',
+    'divide-opacity-80',
+    'divide-opacity-90',
+    'divide-opacity-95',
+    'divide-opacity-100',
+  ];
+
   // Divide Style: https://tailwindcss.com/docs/divide-style
   $tailwind['dividestyle'] = [
     'divide-solid',
