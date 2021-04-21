@@ -1492,7 +1492,7 @@ function add_qtb_classes($classes) {
   ];
 
   // Hook for Tailwind's responsive, hover, focus, and more.
-  $tailwind = apply_filters('qtb_tailwind_components', $tailwind);
+  $tailwind = apply_filters('qtb_tailwind_components', $tailwind, $tailwind);
 
   $tw_classes = [];
   foreach ($tailwind as $component => $list) {
@@ -1500,7 +1500,7 @@ function add_qtb_classes($classes) {
   }
 
   // Tailwind's classes.
-  $tw_classes = apply_filters('qtb_tailwind_classes', $tw_classes);
+  $tw_classes = apply_filters('qtb_tailwind_classes', $tw_classes, $tw_classes);
 
   return [...$classes, ...$tw_classes];
 }
