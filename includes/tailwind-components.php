@@ -692,6 +692,12 @@ function add_qtb_classes($classes) {
     'subpixel-antialiased',
   ];
 
+  // Font Style: https://tailwindcss.com/docs/font-style
+  $tailwind['fontstyle'] = [
+    'italic',
+    'not-italic',
+  ];
+
   // Font Weight: https://tailwindcss.com/docs/font-weight
   $tailwind['fontweight'] = [
     'font-thin',
