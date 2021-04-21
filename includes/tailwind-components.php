@@ -1032,6 +1032,9 @@ function add_qtb_classes($classes) {
     'ring-inset',
   ];
 
+  // Ring Color: https://tailwindcss.com/docs/ring-color
+  $tailwind['ringcolor'] = qtb_tailwind_color('ring');
+
   /**
    * Effects
    */
