@@ -798,6 +798,25 @@ function add_qtb_classes($classes) {
   // Text Color: https://tailwindcss.com/docs/text-color
   $tailwind['textcolor'] = qtb_tailwind_color('text');
 
+  // Text Opacity: https://tailwindcss.com/docs/text-opacity
+  $tailwind['textopacity'] = [
+    'text-opacity-0',
+    'text-opacity-5',
+    'text-opacity-10',
+    'text-opacity-20',
+    'text-opacity-25',
+    'text-opacity-30',
+    'text-opacity-40',
+    'text-opacity-50',
+    'text-opacity-60',
+    'text-opacity-70',
+    'text-opacity-75',
+    'text-opacity-80',
+    'text-opacity-90',
+    'text-opacity-95',
+    'text-opacity-100',
+  ];
+
   // Text Decoration: https://tailwindcss.com/docs/text-decoration
   $tailwind['textdecoration'] = [
     'underline',
