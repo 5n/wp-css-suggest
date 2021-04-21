@@ -686,6 +686,12 @@ function add_qtb_classes($classes) {
     'font-9xl',
   ];
 
+  // Font Smoothing: https://tailwindcss.com/docs/font-smoothing
+  $tailwind['fontsmoothing'] = [
+    'antialiased',
+    'subpixel-antialiased',
+  ];
+
   // Font Weight: https://tailwindcss.com/docs/font-weight
   $tailwind['fontweight'] = [
     'font-thin',
