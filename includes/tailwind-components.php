@@ -795,6 +795,9 @@ function add_qtb_classes($classes) {
     'text-justify',
   ];
 
+  // Text Color: https://tailwindcss.com/docs/text-color
+  $tailwind['textcolor'] = qtb_tailwind_color('text');
+
   // Text Decoration: https://tailwindcss.com/docs/text-decoration
   $tailwind['textdecoration'] = [
     'underline',
