@@ -1557,6 +1557,18 @@ function qtb_tailwind_states($tailwind) {
 add_filter('qtb_tailwind_components', 'qtb_tailwind_states');
 
 /**
+ * Tailwind's responsive design
+ */
+function qtb_tailwind_responsive($classes) {
+  $sm = qtb_array_map($classes, 'sm:');
+  $md = qtb_array_map($classes, 'md:');
+  $lg = qtb_array_map($classes, 'lg:');
+
+  return [...$classes, ...$sm, ...$md, ...$lg];
+}
+add_filter('qtb_tailwind_classes', 'qtb_tailwind_responsive');
+
+/**
  * array_map
  */
 function qtb_array_map($array, $state) {
