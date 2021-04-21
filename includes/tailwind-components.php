@@ -669,6 +669,23 @@ function add_qtb_classes($classes) {
   /**
    * Typography
    */
+  // Font Size: https://tailwindcss.com/docs/font-size
+  $tailwind['fontsize'] = [
+    'text-xs',
+    'font-sm',
+    'font-base',
+    'font-lg',
+    'font-xl',
+    'font-2xl',
+    'font-3xl',
+    'font-4xl',
+    'font-5xl',
+    'font-6xl',
+    'font-7xl',
+    'font-8xl',
+    'font-9xl',
+  ];
+
   // Font Weight: https://tailwindcss.com/docs/font-weight
   $tailwind['fontweight'] = [
     'font-thin',
