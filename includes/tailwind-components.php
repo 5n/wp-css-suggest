@@ -1054,6 +1054,15 @@ function add_qtb_classes($classes) {
     'ring-opacity-100',
   ];
 
+  // Ring Offset Width: https://tailwindcss.com/docs/ring-offset-width
+  $tailwind['ringoffsetwidth'] = [
+    'ring-offset-0',
+    'ring-offset-1',
+    'ring-offset-2',
+    'ring-offset-4',
+    'ring-offset-8',
+  ];
+
   /**
    * Effects
    */
