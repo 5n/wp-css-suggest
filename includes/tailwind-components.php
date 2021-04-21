@@ -1021,6 +1021,17 @@ function add_qtb_classes($classes) {
     'divide-none',
   ];
 
+  // Ring Width: https://tailwindcss.com/docs/ring-width
+  $tailwind['ringwidth'] = [
+    'ring-0',
+    'ring-1',
+    'ring-2',
+    'ring-4',
+    'ring-8',
+    'ring',
+    'ring-inset',
+  ];
+
   /**
    * Effects
    */
