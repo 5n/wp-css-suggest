@@ -1063,6 +1063,9 @@ function add_qtb_classes($classes) {
     'ring-offset-8',
   ];
 
+  // Ring Offset Color: https://tailwindcss.com/docs/ring-offset-color
+  $tailwind['ringoffsetcolor'] = qtb_tailwind_color('ring-offset');
+
   /**
    * Effects
    */
