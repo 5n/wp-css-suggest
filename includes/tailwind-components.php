@@ -1525,3 +1525,40 @@ function qtb_tailwind_color($property) {
 
   return $classes;
 }
+
+/**
+ * Tailwind's states (hover, focus, and more)
+ */
+function qtb_tailwind_states($tailwind) {
+  // hover state
+  $hover_components = [
+    'backgroundcolor',
+    'backgroundopacity',
+    'bordercolor',
+    'borderopacity',
+    'boxshadow',
+    'opacity',
+    'rotate',
+    'scale',
+    'skew',
+    'textcolor',
+    'textopacity',
+    'textdecoration',
+    'translate',
+  ];
+
+  foreach ($hover_components as $hover_component) {
+    $hover_classes              = qtb_array_map($tailwind[$hover_component], 'hover:');
+    $tailwind[$hover_component] = [...$tailwind[$hover_component], ...$hover_classes];
+  }
+
+  return $tailwind;
+}
+add_filter('qtb_tailwind_components', 'qtb_tailwind_states');
+
+/**
+ * array_map
+ */
+function qtb_array_map($array, $state) {
+  return array_map(fn ($value) => $state.$value, $array);
+}
