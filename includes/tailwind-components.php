@@ -952,6 +952,9 @@ function add_qtb_classes($classes) {
     }
   }
 
+  // Border Color: https://tailwindcss.com/docs/border-color
+  $tailwind['bordercolor'] = qtb_tailwind_color('border');
+
   // Border Style: https://tailwindcss.com/docs/border-style
   $tailwind['borderstyle'] = [
     'border-solid',
