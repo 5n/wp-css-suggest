@@ -955,6 +955,25 @@ function add_qtb_classes($classes) {
   // Border Color: https://tailwindcss.com/docs/border-color
   $tailwind['bordercolor'] = qtb_tailwind_color('border');
 
+  // Border Opacity: https://tailwindcss.com/docs/border-opacity
+  $tailwind['borderopacity'] = [
+    'border-opacity-0',
+    'border-opacity-5',
+    'border-opacity-10',
+    'border-opacity-20',
+    'border-opacity-25',
+    'border-opacity-30',
+    'border-opacity-40',
+    'border-opacity-50',
+    'border-opacity-60',
+    'border-opacity-70',
+    'border-opacity-75',
+    'border-opacity-80',
+    'border-opacity-90',
+    'border-opacity-95',
+    'border-opacity-100',
+  ];
+
   // Border Style: https://tailwindcss.com/docs/border-style
   $tailwind['borderstyle'] = [
     'border-solid',
