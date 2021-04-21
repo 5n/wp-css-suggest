@@ -990,6 +990,9 @@ function add_qtb_classes($classes) {
     }
   }
 
+  // Divide Color: https://tailwindcss.com/docs/divide-color
+  $tailwind['dividecolor'] = qtb_tailwind_color('divide');
+
   // Divide Style: https://tailwindcss.com/docs/divide-style
   $tailwind['dividestyle'] = [
     'divide-solid',
