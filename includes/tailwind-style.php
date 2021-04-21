@@ -3,16 +3,8 @@
  * Tailwind via CDN
  */
 
-define('TAILWIND_CDN_URL', 'https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
-
-// editor
-function qtb_tailwind_setup() {
-  add_editor_style([TAILWIND_CDN_URL]);
-}
-add_action('after_setup_theme', 'qtb_tailwind_setup');
-
-// front end
 function qtb_tailwind_scripts() {
-  wp_enqueue_style('tailwind-cdn-style', TAILWIND_CDN_URL);
+  wp_enqueue_style('tailwind-cdn-style', 'https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
 }
 add_action('wp_enqueue_scripts', 'qtb_tailwind_scripts');
+add_action('enqueue_block_editor_assets', 'qtb_tailwind_scripts');
