@@ -787,6 +787,14 @@ function add_qtb_classes($classes) {
     'placeholder-opacity-100',
   ];
 
+  // Text Alignment: https://tailwindcss.com/docs/text-align
+  $tailwind['textalign'] = [
+    'text-left',
+    'text-center',
+    'text-right',
+    'text-justify',
+  ];
+
   // Text Decoration: https://tailwindcss.com/docs/text-decoration
   $tailwind['textdecoration'] = [
     'underline',
