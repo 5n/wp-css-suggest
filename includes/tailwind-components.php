@@ -883,6 +883,9 @@ function add_qtb_classes($classes) {
     'bg-clip-text',
   ];
 
+  // Background Color: https://tailwindcss.com/docs/background-color
+  $tailwind['backgroundcolor'] = qtb_tailwind_color('bg');
+
   // Background Position: https://tailwindcss.com/docs/background-position
   $tailwind['backgroundposition'] = [
     'bg-bottom',
