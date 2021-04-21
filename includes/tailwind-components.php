@@ -765,6 +765,8 @@ function add_qtb_classes($classes) {
     'list-outside',
   ];
 
+  // Placeholder Color: https://tailwindcss.com/docs/placeholder-color
+
   // Text Decoration: https://tailwindcss.com/docs/text-decoration
   $tailwind['textdecoration'] = [
     'underline',
@@ -1342,3 +1344,23 @@ function add_qtb_classes($classes) {
   return [...$classes, ...$tw_classes];
 }
 add_filter('qtb_class_suggestions', 'add_qtb_classes');
+
+/**
+ * Tailwind's color system
+ */
+function qtb_tailwind_color($property) {
+  $classes = [
+    $property.'-transparent',
+    $property.'-current',
+    $property.'-black',
+    $property.'-white',
+  ];
+
+  foreach (['gray', 'red', 'yellow', 'green', 'blue', 'indigo', 'purple', 'pink'] as $color) {
+    foreach (['50', '100', '200', '300', '400', '500', '600', '700', '800', '900'] as $num) {
+      $classes[] = $property.'-'.$color.'-'.$num;
+    }
+  }
+
+  return $classes;
+}
