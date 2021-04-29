@@ -1,8 +1,8 @@
 {
-	"name": "query-builder",
+	"name": "query-theme-builder",
 	"version": "0.2.0",
-	"description": "Example block written with ESNext standard and JSX support – build step required.",
-	"author": "The WordPress Contributors",
+	"description": "A plugin that help WordPress developers to create a block-based theme using Tailwind CSS.",
+	"author": "Genki Nakatani",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
@@ -14,11 +14,11 @@
 		"packages-update": "wp-scripts packages-update"
 	},
 	"dependencies": {
-		"@wordpress/block-editor": "^5.3.2",
-		"@wordpress/blocks": "^8.0.2",
-		"@wordpress/i18n": "^3.19.2"
+		"@wordpress/block-editor": "^5.3.3",
+		"@wordpress/blocks": "^8.0.3",
+		"@wordpress/i18n": "^3.20.0"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^14.1.1"
+		"@wordpress/scripts": "^15.0.0"
 	}
 }
