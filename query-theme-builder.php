@@ -43,4 +43,4 @@ add_filter('block_editor_settings', 'qtb_editor_settings');
  * PHP code files
  */
 require_once QTB_PLUGIN_DIR.'includes/tailwind-style.php';
-require_once QTB_PLUGIN_DIR.'includes/tailwind-components.php';
+require_once QTB_PLUGIN_DIR.'includes/tailwind-classnames.php';
