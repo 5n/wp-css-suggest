@@ -35,7 +35,7 @@ export const withInspectorControl = createHigherOrderComponent((BlockEdit) => {
           <InspectorAdvancedControls>
             <BaseControl className="qtb-classname-control">
               <FormTokenField
-                label={__("CSS class suggest")}
+                label={"[S] " + __("Additional CSS class(es)")}
                 value={classNameArray}
                 suggestions={qtbSuggestions}
                 onChange={(value) =>
