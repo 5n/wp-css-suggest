@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Query Theme Builder
- * Description:       A plugin that help WordPress developers to create a block-based theme using Tailwind CSS.
+ * Description:       A plugin that help WordPress developers to create a block theme using Tailwind CSS.
  * Requires at least: 5.7
  * Requires PHP:      7.4
  * Version:           0.2.0

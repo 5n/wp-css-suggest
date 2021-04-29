@@ -1,7 +1,7 @@
 {
 	"name": "query-theme-builder",
 	"version": "0.2.0",
-	"description": "A plugin that help WordPress developers to create a block-based theme using Tailwind CSS.",
+	"description": "A plugin that help WordPress developers to create a block theme using Tailwind CSS.",
 	"author": "Genki Nakatani",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
