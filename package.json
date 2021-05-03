@@ -1,5 +1,5 @@
 {
-	"name": "query-theme-builder",
+	"name": "qube-theme-builder",
 	"version": "0.2.0",
 	"description": "A plugin that help WordPress developers to create a block theme using Tailwind CSS.",
 	"author": "Genki Nakatani",

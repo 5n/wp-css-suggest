@@ -1,4 +1,4 @@
-=== Query Theme Builder ===
+=== Qube Theme Builder ===
 Contributors:      Genki Nakatani
 Tags:              block
 Tested up to:      5.7.0
@@ -10,4 +10,4 @@ A plugin that help WordPress developers to create a block theme using Tailwind C
 
 == Description ==
 
-Development for this plugin is done on GitHub: https://github.com/wp-q/query-theme-builder
+Development for this plugin is done on GitHub: https://github.com/block-theme/qube-theme-builder

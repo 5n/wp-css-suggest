@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Query Theme Builder
+ * Plugin Name:       Qube Theme Builder
  * Description:       A plugin that help WordPress developers to create a block theme using Tailwind CSS.
  * Requires at least: 5.7
  * Requires PHP:      7.4
@@ -8,7 +8,7 @@
  * Author:            Genki Nakatani
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       query-theme-builder
+ * Text Domain:       qube-theme-builder
  *
  * @package           create-block
  */
