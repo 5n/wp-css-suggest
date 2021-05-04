@@ -22,7 +22,7 @@ function qtb_editor_assets() {
   $script_asset = require(QTB_PLUGIN_DIR.'build/index.asset.php');
 
   wp_enqueue_script(
-    'qtb-gutenberg-js',
+    'qtb-gutenberg',
     plugins_url('build/index.js', __FILE__),
     $script_asset['dependencies'],
     $script_asset['version']
