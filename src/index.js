@@ -9,7 +9,6 @@ import { hasBlockSupport } from "@wordpress/blocks";
 import { Fragment } from "@wordpress/element";
 import { createHigherOrderComponent } from "@wordpress/compose";
 import { addFilter } from "@wordpress/hooks";
-import { useSelect } from "@wordpress/data";
 
 export const withInspectorControl = createHigherOrderComponent((BlockEdit) => {
   return (props) => {
@@ -22,13 +21,6 @@ export const withInspectorControl = createHigherOrderComponent((BlockEdit) => {
     if (hasCustomClassName && props.isSelected) {
       const { className } = props.attributes;
 
-      const classNameArray = className ? className.trim().split(/\s+/) : [];
-
-      const qtbSuggestions = useSelect(
-        (select) => select("core/editor").getEditorSettings().qtbSuggestions,
-        []
-      );
-
       return (
         <Fragment>
           <BlockEdit {...props} />
@@ -36,7 +28,11 @@ export const withInspectorControl = createHigherOrderComponent((BlockEdit) => {
             <BaseControl className="qtb-classname-control">
               <FormTokenField
                 label={"[S] " + __("Additional CSS class(es)")}
-                value={classNameArray}
+                value={
+                  className && className.trim()
+                    ? className.trim().split(/\s+/)
+                    : []
+                }
                 suggestions={qtbSuggestions}
                 onChange={(value) =>
                   props.setAttributes({

@@ -19,25 +19,24 @@ define('QTB_PLUGIN_DIR', plugin_dir_path(__FILE__));
  * Register Script for Gutenberg
  */
 function qtb_editor_assets() {
+  $handle       = 'qtb-suggestions';
   $script_asset = require(QTB_PLUGIN_DIR.'build/index.asset.php');
 
   wp_enqueue_script(
-    'qtb-gutenberg',
+    $handle,
     plugins_url('build/index.js', __FILE__),
     $script_asset['dependencies'],
     $script_asset['version']
   );
+
+  // suggestions
+  wp_localize_script(
+    $handle,
+    'qtbSuggestions',
+    apply_filters('qtb_class_suggestions', [])
+  );
 }
 add_action('enqueue_block_editor_assets', 'qtb_editor_assets');
-
-/**
- * Block Editor Setting
- */
-function qtb_editor_settings($settings) {
-  $settings['qtbSuggestions'] = apply_filters('qtb_class_suggestions', []);
-  return $settings;
-}
-add_filter('block_editor_settings', 'qtb_editor_settings');
 
 /**
  * PHP code files
